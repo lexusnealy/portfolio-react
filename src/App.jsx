@@ -12,7 +12,7 @@ import Contact from './pages/Contact.jsx';
 function App() {
   return (
     <Router>
-      <nav style={{ padding: '10px', background: '#eee' }}>
+      <nav style={{ padding: '10px', background: '#360A14' }}>
         <Link to="/" style={{ marginRight: '10px' }}>Home</Link>
         <Link to="/about" style={{ marginRight: '10px' }}>About</Link>
         <Link to="/projects" style={{ marginRight: '10px' }}>Projects</Link>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../index.css'; // or wherever your CSS file lives
+import '../index.css';
 
 const ContactMe = () => {
   const [formData, setFormData] = useState({
@@ -22,7 +22,7 @@ const ContactMe = () => {
 
   return (
     <section className="contact-container">
-      <h2 className="contact-title">Let's Connect</h2>
+      <h2 className="contact-title">Let's Connect!</h2>
       <form className="contact-form" onSubmit={handleSubmit}>
         <label>
           Name
